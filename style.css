@@ -7,11 +7,42 @@ body{
     background-color: #E9EDF2;
     width: 100%;
     height: 100%;
-    text-align: center;
+    
 }
 
 header{
+    padding: 1em;
+    background-color: #E9EDF2;
+    position: fixed;
+    left: 0;
+    right: 0;
 
+}
+
+.logo{
+    float: left;
+}
+
+.menu-header{
+    padding: 0;
+}
+
+.menu-item{
+    display: inline-block;
+}
+
+.try-free{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #3F9BF8;
+    color: #fff;
+}
+
+.sign-in{
+}
+
+li{
+    display: block;
 }
 
 .customers{
@@ -27,10 +58,6 @@ header{
     background-color: #fff;
     padding-bottom: 6em;
     border-top: 1px solid rgba(0,0,0,0.15);
-        border-top-color: rgba(0, 0, 0, 0.15);
-        border-top-style: solid;
-        border-top-width: 1px;
-}
 }
 
 .top-free-month{}
@@ -40,4 +67,33 @@ header{
 .active-sec{}
 
 .data-safe{}
+
+footer{
+    background-color: #3F4655;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-container{
+    text-align: left;
+    display: flex;
+    margin: auto;
+    max-width: 70em;
+}
+
+.footer-menu-item{
+    font-weight: 600;
+}
+
+.footer-menu-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-text{
+    color: rgba(255,255,255,0.5);
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    text-decoration: none;
+    word-spacing: 5px;
+}
 
