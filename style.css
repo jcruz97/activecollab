@@ -1,0 +1,24 @@
+html{
+
+}
+
+body{
+    font-family:"adelle-sans","Helvetica Neue",Arial,sans-serif;
+    background-color: #E9EDF2;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header{
+
+}
+
+.customers{
+    background-color: #E9EDF2;
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.all-brands{
+    background-size: 1120px 140px;
+}
