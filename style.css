@@ -1,5 +1,5 @@
 html{
-
+    font-family:"adelle-sans","Helvetica Neue",Arial,sans-serif;
 }
 
 body{
@@ -7,42 +7,78 @@ body{
     background-color: #E9EDF2;
     width: 100%;
     height: 100%;
+    font-size: 1em;
+    color: #202528;
+    line-height: 1.5;
+    text-align: center;
     
 }
 
 header{
     padding: 1em;
     background-color: #E9EDF2;
-    position: fixed;
+    position: static;
     left: 0;
     right: 0;
-
+    text-align: left;
+    width: 100%;
+    height: 40px;
 }
+
+nav{
+    display: inline;
+}
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+
 
 .logo{
     float: left;
 }
+.name{
+    text-decoration: none;
+}
 
 .menu-header{
     padding: 0;
+    display: inline;
+    
 }
 
 .menu-item{
+    display: inline;
+}
+
+.menu-tab{
     display: inline-block;
 }
 
-.try-free{
+#try-free{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     background-color: #3F9BF8;
     color: #fff;
 }
 
-.sign-in{
+#sign-in{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
 }
 
-li{
-    display: block;
+.right-elements{
+    display: inline;
+    float: right;
+    position: relative;
+    left:  50px;
+    top : 80px;
+}
+
+.top-page{
+    text-align: center;
 }
 
 .customers{
