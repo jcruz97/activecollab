@@ -22,3 +22,22 @@ header{
 .all-brands{
     background-size: 1120px 140px;
 }
+
+.free-month-register{
+    background-color: #fff;
+    padding-bottom: 6em;
+    border-top: 1px solid rgba(0,0,0,0.15);
+        border-top-color: rgba(0, 0, 0, 0.15);
+        border-top-style: solid;
+        border-top-width: 1px;
+}
+}
+
+.top-free-month{}
+
+.register-form{}
+
+.active-sec{}
+
+.data-safe{}
+
