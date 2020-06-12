@@ -30,21 +30,35 @@ nav{
 }
 
 h1{
-    font-size: 2.5em;
+    font-size: 2.650em;
     text-align: center;
+    font-weight: 300;
+}    
+
+
+
+h2{
+    font-size: 2em;
+    font-weight: 400;
 }
 
 
 .logo{
     float: left;
 }
-.name{
+
+.logo-place{
     text-decoration: none;
+    
 }
+
 
 .menu-header{
     padding: 0;
     display: inline;
+    position: absolute;
+    left: 200px;
+    top: 10px;
     
 }
 
@@ -61,33 +75,87 @@ h1{
     border-top-left-radius: 5px;
     background-color: #3F9BF8;
     color: #fff;
+    border: 1px solid black;
 }
 
 #sign-in{
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     background-color: white;
+    border: 1px solid black;
 }
 
 .right-elements{
     display: inline;
     float: right;
-    position: relative;
-    left:  50px;
-    top : 80px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 
 .top-page{
     text-align: center;
 }
 
+.black-boxes{
+    background-color: #3F4655;
+}
+
+.main-title{
+    font-weight: 300px;
+}
+
+.h2-title{
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    font-size: 1.5em;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: freight-text-pro,Georgia,sans-serif;
+}
+
+#try30days{
+    background-color: #3F9BF8;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius:5px;
+    font-weight: 600;
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    
+}
+
+.credit-card{
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    font-size: .575em;
+}
+
+.bck-scrn{
+    background: transparent url("deco-icons-hero.png") no-repeat;
+    background-size: 1610px 250px;
+}
+
+.screenshot{
+    width: 900px;
+    height: 530px;
+    position: relative;
+    right: 80px;
+}
+
 .customers{
     background-color: #E9EDF2;
     border-top: 1px solid rgba(0,0,0,0.15);
+    text-align: center;
 }
 
 .all-brands{
-    background-size: 1120px 140px;
+    width: 1300px;
+    height: 130px;
 }
 
 .free-month-register{
@@ -100,9 +168,17 @@ h1{
 
 .register-form{}
 
-.active-sec{}
+.active-sec{
+    color: #727C8E;
+    font-weight: 400;
+    font-size: .850em;
+}
+a:visited{
+    color: #727C8E;
+}
 
-.data-safe{}
+.data-safe{
+}
 
 footer{
     background-color: #3F4655;
