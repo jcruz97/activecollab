@@ -4,22 +4,15 @@
         <meta charset="utf-8">
         <title>Project Manager Software - ActiveCollab</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="https://lh3.googleusercontent.com/MldXK41PI9vPipt0VNcerIzX44BNuIonXMvw3_VqMPGAZ7Xm7DaOhS8zDue4Rwy2jMyo=s180"
+        type="image"> 
+
     </head>
 
 
     <body>
-
-        <header> <!--Le header va ici défiler au fur et à mesure de la page-->
-
-             <a class="logo-place" href="https://activecollab.com/">
-                <img class="logo" src="https://lh3.googleusercontent.com/MldXK41PI9vPipt0VNcerIzX44BNuIonXMvw3_VqMPGAZ7Xm7DaOhS8zDue4Rwy2jMyo=s180" 
-                alt="active.collab logo" height=40px width=40px>
-
-                <p class="name">active.collab</p>
-             </a>
-
-            
-          <nav>
+      
+      <nav>
 
             <ul class="menu-header"> <!--Le menu qui permet de naviguer dans les catégories commerciales du site-->
 
@@ -34,7 +27,7 @@
 
 
                 <li class="menu-item">
-                    <p class="menu-tab">More +</p>
+                    <p class="menu-tab">More+</p>
                 </li>
 
 
@@ -43,7 +36,7 @@
             <div class="right-elements">
                 <ul>
                   <li class="menu-item">
-                    <p class="menu-tab">Help & Support</p>
+                    <p class="menu-tab">Help&amp;Support</p>
                   </li>
 
                   <li class="menu-item">
@@ -66,7 +59,19 @@
 
             </div>
 
-          </nav>
+          </nav>  
+
+        <header> <!--Le header va ici défiler au fur et à mesure de la page-->
+
+             <a class="logo-place" href="https://activecollab.com/">
+                <img class="logo" src="https://lh3.googleusercontent.com/MldXK41PI9vPipt0VNcerIzX44BNuIonXMvw3_VqMPGAZ7Xm7DaOhS8zDue4Rwy2jMyo=s180" 
+                alt="active.collab logo" height=40px width=40px>
+
+                <p class="name">active.collab</p>
+             </a>
+
+            
+          
 
 
         </header>
@@ -118,8 +123,9 @@
                  
                <!--Première liste pour le choix "cloud"-->
                 <li class ="monthly">
-                    <img src="/web/20170409021626im_/https://activecollab.com/assets/images/cloud-plan@2x.png" 
-                    alt="active collab project management software cloud pricing plan" width="180px" height="100px">
+                    <img src="monthly.png" alt="active collab project management software cloud pricing plan" 
+                    width="180px" height="100px">
+
                     <h3>Monthly Plans</h3>
 
                     <ul class="monthly-list">
@@ -128,13 +134,13 @@
                         <li>Ready in 2 minutes</li>
                     </ul>
 
-                    <p class="month-price">Plans & Pricing</p>
+                    <p class="price-button">Plans & Pricing</p>
                     <p>from 25$ / month</p>
                 </li>
 
                 <!--Deuxième liste pour le choix "server"-->
                 <li class ="server">
-                    <img src="/web/20170409021626im_/https://activecollab.com/assets/images/selfhosted-plan@2x.png" 
+                    <img src="server.png" 
                     alt="active collab project management software self hosted pricing plan" width="180px" height="100px">
                     <h3>Self-Hosted</h3>
 
@@ -144,13 +150,13 @@
                         <li>One year of support included</li>
                     </ul>
 
-                    <p class="server-price">Self-Hosted Pricing</p>
+                    <p class="price-button">Self-Hosted Pricing</p>
                     <p>one time fee- from $999</p>
                 </li>
             </ul>    
 
 
-        </div>
+          </div>
 
         <div class="customers"> <!--Section des clients prestigieux-->
             <h2>Who's using Active Collab?</h2>
@@ -172,9 +178,28 @@
 
             </div>
 
-            <div class="register-from">
+          <form> <!--Formulaire de données pour le fameux mois gratuit-->
 
+            <label for="name">Your Name or Organization</label><br>
+
+            <input class="inform" type="text" id="name" name="name" value="Enter name or organization" data-kwimpalastatus="alive" data-kwimpalaid="1591946975225-0"><br><br>
+
+            <label for="mail">Email</label><br>
+
+            <input class="inform" type="text" id="mail" name="mail" value="name@organization.com" data-kwimpalastatus="alive" data-kwimpalaid="1591946975225-1"><br><br>
+
+            <label for="pwd">Password</label><br>
+
+            <input class="inform" type="text" id="pwd" name="pwd" value="The longer, the stronger" data-kwimpalastatus="alive" data-kwimpalaid="1591946975225-2"><br>
+
+
+            <div>
+                <input type="submit" class="button-form" value="Start my free month!"><br>
+                <p class="enjoy">Hope you'll enjoy it!</p>
             </div>
+
+          </form>
+        
 
             <div class="active-sec">
                 <p class="data-safe">
@@ -200,25 +225,25 @@
         <ul class="footer-product-list">
           <li class="footer-list-heading">Product</li>
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/features">Features</a>
+            <a class="footer-link" href="https://activecollab.com/features">Features</a>
           </li>
           <li class="footer-menu-item">
             <p class="footer-menu-link">All Features</p>
           </li>          
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/pricing">Pricing</a>
+            <a class="footer-link" href="https://activecollab.com/pricing">Pricing</a>
           </li>
           <li class="footer-menu-item">
-             <a class="footer-menu-link" href="https://activecollab.com/add-ons">Add-Ons</a>
+             <a class="footer-link" href="https://activecollab.com/add-ons">Add-Ons</a>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/roadmap">Roadmap</a>
+            <a class="footer-link" href="https://activecollab.com/roadmap">Roadmap</a>
           </li>
           <li class="footer-menu-item">
-            <p class="footer-menu-link">Timer</p>
+            <p class="footer-link">Timer</p>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/apps">Mobile Apps</a>
+            <a class="footer-link" href="https://activecollab.com/apps">Mobile Apps</a>
           </li>
         </ul>
 
@@ -308,16 +333,16 @@
           <li class="footer-list-heading">Company
         </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/about-contact">About &amp; Contact</a>
+            <a class="footer-link" href="https://activecollab.com/about-contact">About &amp; Contact</a>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/careers">Careers</a>
+            <a class="footer-link" href="https://activecollab.com/careers">Careers</a>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/privacy-policy">Privacy Policy</a>
+            <a class="footer-link" href="https://activecollab.com/privacy-policy">Privacy Policy</a>
           </li>
           <li class="footer-menu-item">
-            <a class="footer-menu-link" href="https://activecollab.com/terms">Terms of Service</a>
+            <a class="footer-link" href="https://activecollab.com/terms">Terms of Service</a>
           </li>
           <li class="footer-menu-item">
             <p class="footer-menu-link">Security</p>
@@ -337,7 +362,7 @@
             <p class="footer-menu-link">Newsletter</p>
           </li>
           <li class="footer-menu-item">
-            <p class="footer-menu-link" href="https://activecollab.com/help">Help &amp; Support</a>
+            <a class="footer-menu-link" href="https://activecollab.com/help">Help &amp; Support</a>
           </li>
         </ul>
 
